@@ -4,97 +4,114 @@ import java.util.*;
 
 public class Customer {
 
-	private int id;
-	private String name;
-	private String phone;
-	private String about;
-	private int age;
-	private BigDecimal balance;
-	private boolean active;
-	private Date joined;
+    private int id;
+    private String name;
+    private String phone;
+    private String about;
+    private int age;
+    private BigDecimal balance;
+    private boolean active;
+    private Date joined;
 
-	//data item names
-	public static final String 
-		ID="id",
-		NAME="name",
-		PHONE="phone",
-		ABOUT="about",
-		AGE="age",
-		BALANCE="balance",
-		ACTIVE="active",
-		JOINED="joined";
+    //data item names
+    public static final String
+        ID = "id",
+        NAME = "name",
+        PHONE = "phone",
+        ABOUT = "about",
+        AGE = "age",
+        BALANCE = "balance",
+        ACTIVE = "active",
+        JOINED = "joined";
 
-	public Customer() {
-	}
+    public Customer() {
 
-	public int getId() {
-		return id;
-	}
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public int getId() {
 
-	public String getName() {
-		return name;
-	}
+        return id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setId(int id) {
 
-	public String getPhone() {
-		return phone;
-	}
+        this.id = id;
+    }
 
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
+    public String getName() {
 
-	public String getAbout() {
-		return about;
-	}
+        return name;
+    }
 
-	public void setAbout(String about) {
-		this.about = about;
-	}
+    public void setName(String name) {
 
-	public int getAge() {
-		return age;
-	}
+        this.name = name;
+    }
 
-	public void setAge(int age) {
-		this.age = age;
-	}
+    public String getPhone() {
 
-	public BigDecimal getBalance() {
-		return balance;
-	}
+        return phone;
+    }
 
-	public void setBalance(BigDecimal balance) {
-		this.balance = balance;
-	}
+    public void setPhone(String phone) {
 
-	public boolean isActive() {
-		return active;
-	}
+        this.phone = phone;
+    }
 
-	public void setActive(boolean active) {
-		this.active = active;
-	}
+    public String getAbout() {
 
-	public Date getJoined() {
-		return joined;
-	}
+        return about;
+    }
 
-	public void setJoined(Date joined) {
-		this.joined = joined;
-	}
+    public void setAbout(String about) {
 
-	@Override
-	public String toString() {
-		DateFormat df = DateFormat.getDateInstance(DateFormat.LONG);
-		return this.id + ". " + this.name + " joined " + df.format(this.joined);
-	}
+        this.about = about;
+    }
 
+    public int getAge() {
+
+        return age;
+    }
+
+    public void setAge(int age) {
+
+        this.age = age;
+    }
+
+    public BigDecimal getBalance() {
+
+        return balance;
+    }
+
+    public void setBalance(BigDecimal balance) {
+
+        this.balance = balance;
+    }
+
+    public boolean isActive() {
+
+        return active;
+    }
+
+    public void setActive(boolean active) {
+
+        this.active = active;
+    }
+
+    public Date getJoined() {
+
+        return joined;
+    }
+
+    public void setJoined(Date joined) {
+
+        this.joined = joined;
+    }
+
+    @Override
+    public String toString() {
+
+        DateFormat df = DateFormat.getDateInstance(DateFormat.LONG);
+        return this.id + ". " + this.name + " joined " + df.format(this.joined);
+    }
 }
