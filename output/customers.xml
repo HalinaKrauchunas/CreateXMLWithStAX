@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<customers>
+  <customer id="1">
+    <name>Carly Gonzales</name>
+    <age>55</age>
+    <phone>Carly Gonzales</phone>
+    <balance>1145.19</balance>
+    <about>Carly Gonzales</about>
+    <active>true</active>
+    <joined>2005-03-05T00:00:00</joined>
+  </customer>
+  <customer id="2">
+    <name>Taylor Moon</name>
+    <age>54</age>
+    <phone>Taylor Moon</phone>
+    <balance>2318.30</balance>
+    <about>Taylor Moon</about>
+    <active>true</active>
+    <joined>2000-05-25T00:00:00</joined>
+  </customer>
+  <customer id="3">
+    <name>Lynda Bird</name>
+    <age>58</age>
+    <phone>Lynda Bird</phone>
+    <balance>2676.25</balance>
+    <about>Lynda Bird</about>
+    <active>false</active>
+    <joined>1990-09-28T00:00:00</joined>
+  </customer>
+  <customer id="4">
+    <name>Deirdre Green</name>
+    <age>42</age>
+    <phone>Deirdre Green</phone>
+    <balance>2988.91</balance>
+    <about>Deirdre Green</about>
+    <active>true</active>
+    <joined>2003-11-07T00:00:00</joined>
+  </customer>
+  <customer id="5">
+    <name>Lee Lindsey</name>
+    <age>50</age>
+    <phone>Lee Lindsey</phone>
+    <balance>3350.71</balance>
+    <about>Lee Lindsey</about>
+    <active>false</active>
+    <joined>2007-06-12T00:00:00</joined>
+  </customer>
+  <customer id="6">
+    <name>Ilene Spears</name>
+    <age>40</age>
+    <phone>Ilene Spears</phone>
+    <balance>2124.94</balance>
+    <about>Ilene Spears</about>
+    <active>false</active>
+    <joined>1988-06-20T00:00:00</joined>
+  </customer>
+  <customer id="7">
+    <name>Skinner Reyes</name>
+    <age>40</age>
+    <phone>Skinner Reyes</phone>
+    <balance>1316.54</balance>
+    <about>Skinner Reyes</about>
+    <active>true</active>
+    <joined>2013-04-09T00:00:00</joined>
+  </customer>
+  <customer id="8">
+    <name>Jewell Sawyer</name>
+    <age>34</age>
+    <phone>Jewell Sawyer</phone>
+    <balance>1231.71</balance>
+    <about>Jewell Sawyer</about>
+    <active>true</active>
+    <joined>2001-12-25T00:00:00</joined>
+  </customer>
+  <customer id="9">
+    <name>Leona Henderson</name>
+    <age>21</age>
+    <phone>Leona Henderson</phone>
+    <balance>3689.42</balance>
+    <about>Leona Henderson</about>
+    <active>false</active>
+    <joined>2010-10-04T00:00:00</joined>
+  </customer>
+  <customer id="10">
+    <name>Schultz Sandoval</name>
+    <age>63</age>
+    <phone>Schultz Sandoval</phone>
+    <balance>3447.45</balance>
+    <about>Schultz Sandoval</about>
+    <active>true</active>
+    <joined>2012-05-28T00:00:00</joined>
+  </customer>
+</customers>
